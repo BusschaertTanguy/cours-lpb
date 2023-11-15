@@ -146,5 +146,5 @@ JavaScript est un language faiblement type. Ceci veut dire que nous ne devons ja
 ```js
 let ma_variable = 10; // Définie en tant que nombre
 
-ma_variable = "Salut". // Mis a jour en tant que chaîne.
+ma_variable = "Salut" // Mis a jour en tant que chaîne.
 ```
