@@ -97,6 +97,42 @@ let prenom = "Michel"; // Double
 
 Les 2 types de guillemets sont permise, mais il est preferable de choisir 1 style et de rester avec celui si.
 
+Il est possible de combiner des chaines de caractères, grace a l’opérateur `+`
+
+```js
+let nom = "Dupont" + " " + "Michel";
+
+console.log(nom); // Affiche 'Dupont Michel'
+```
+
+Dans l'exemple precedent, nous avons combiner 3 chaines:
+- Le nom de famille
+- Un espace
+- Le prénom
+
+Si une variable contient un chaîne, il est donc aussi possible d'utiliser celle si
+
+```js
+let nomDeFamille = "Dupont";
+let prenom = "Michel";
+let nom = nomDeFamille + " " + prenom;
+
+console.log(nom); // Affiche 'Dupont Michel'
+```
+
+Quand il y a une combinaison de variables et de chaines, il est aussi possible d'utiliser des backticks(\`\`) pour définir la chaîne. Vous pouvez introduire les noms de variables dans votre chaîne grace a `${}`.
+
+```js
+let nomDeFamille = "Dupont";
+let prenom = "Michel";
+let nom = `${nomDeFamille} ${prenom}`;
+let salutation = `$Bonjour, ${nom}!`;
+
+console.log(salutation); // Affiche 'Bonjour, Dupont Michel!'
+```
+
+Les backticks permettent donc de combiner des variables et des chaines pour former une nouvelle chaîne.
+
 ### Les booléens
 
 Les booléens sont des valeurs `true`/`false` (vrai ou faux), et ne peuvent prendre que ses 2 valeurs la.
