@@ -1,6 +1,6 @@
 # Les variables
 
-Les variables sont des conteneurs pour des valeurs, tel un chiffre pour une somme, ou une chaîne de caractères fans un phrase.
+Les variables sont des conteneurs pour des valeurs, tel un chiffre pour une somme, ou une chaîne de caractères dans un phrase.
 
 La particularité d'une variable c'est que sa valeur peut changer, d'ou le nom variable.
 
